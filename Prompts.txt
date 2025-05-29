@@ -1,0 +1,30 @@
+Prompts:
+
+- proporcioname una lista de strins que posea 16 jugadores
+
+- random numero en java entre el uno y dos
+
+- dame un if ternario en java
+
+- de que es este error
+
+- throws Execution para hilos virtuales
+
+Exception in thread "main" java.lang.UnsupportedOperationException
+	at java.base/java.util.ImmutableCollections.uoe(ImmutableCollections.java:142)
+	at java.base/java.util.ImmutableCollections$AbstractImmutableCollection.add(ImmutableCollections.java:147)
+	at SegundaEvaluacion.Main.main(Main.java:55)
+
+- es correcto esto ?
+
+List<String> jugadores02 = List.of();
+
+        try {
+            for (int i = 0; i < 8; i++) {
+                jugadores02.add(ganadoresOctavos[i].get());
+            }
+        } catch (InterruptedException | ExecutionException e) {
+            e.printStackTrace();
+        }	
+
+-         
